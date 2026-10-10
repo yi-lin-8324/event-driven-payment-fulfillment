@@ -1,4 +1,5 @@
 # Event-Driven Payment & Fulfillment System
+[![Payment Service Tests](https://github.com/yi-lin-8324/event-driven-payment-fulfillment/actions/workflows/payment-tests.yml/badge.svg)](https://github.com/yi-lin-8324/event-driven-payment-fulfillment/actions/workflows/payment-tests.yml)
 
 A local event-driven distributed system built with Java, Spring Boot, Apache Kafka, Avro, Schema Registry, PostgreSQL,
 and Docker Compose.

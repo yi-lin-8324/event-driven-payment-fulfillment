@@ -1,0 +1,38 @@
+{
+  "type": "record",
+  "name": "PaymentSucceeded",
+  "namespace": "com.example.paymentservice.avro",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string"
+    },
+    {
+      "name": "correlationId",
+      "type": "string"
+    },
+    {
+      "name": "eventType",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+    {
+      "name": "paymentId",
+      "type": "string"
+    },
+    {
+      "name": "amount",
+      "type": "string"
+    }
+  ]
+}

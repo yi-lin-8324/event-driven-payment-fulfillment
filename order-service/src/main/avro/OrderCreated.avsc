@@ -1,0 +1,39 @@
+{
+  "type": "record",
+  "name": "OrderCreated",
+  "namespace": "com.example.orderservice.avro",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string"
+    },
+    {
+      "name": "correlationId",
+      "type": "string"
+    },
+    {
+      "name": "eventType",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": {
+        "type": "long",
+        "logicalType": "timestamp-millis"
+      }
+    },
+    {
+      "name": "amount",
+      "type": "string"
+    },
+    {
+      "name": "sourceService",
+      "type": ["null", "string"],
+      "default": null
+    }
+  ]
+}

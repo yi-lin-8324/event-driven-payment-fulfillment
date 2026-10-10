@@ -1,0 +1,31 @@
+{
+  "type": "record",
+  "name": "PaymentRefunded",
+  "namespace": "com.example.paymentservice.avro",
+  "fields": [
+    {
+      "name": "eventId",
+      "type": "string"
+    },
+    {
+      "name": "orderId",
+      "type": "string"
+    },
+    {
+      "name": "correlationId",
+      "type": "string"
+    },
+    {
+      "name": "eventType",
+      "type": "string"
+    },
+    {
+      "name": "timestamp",
+      "type": "long"
+    },
+    {
+      "name": "paymentId",
+      "type": "string"
+    }
+  ]
+}
